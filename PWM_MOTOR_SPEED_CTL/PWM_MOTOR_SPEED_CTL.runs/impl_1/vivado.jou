@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jan 26 15:10:50 2022
+# Process ID: 90167
+# Current directory: /home/rehan/MERL/FPGA_EMU/PWM_MOTOR_SPEED_CTL/PWM_MOTOR_SPEED_CTL.runs/impl_1
+# Command line: vivado -log PWM_controller.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PWM_controller.tcl -notrace
+# Log file: /home/rehan/MERL/FPGA_EMU/PWM_MOTOR_SPEED_CTL/PWM_MOTOR_SPEED_CTL.runs/impl_1/PWM_controller.vdi
+# Journal file: /home/rehan/MERL/FPGA_EMU/PWM_MOTOR_SPEED_CTL/PWM_MOTOR_SPEED_CTL.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source PWM_controller.tcl -notrace

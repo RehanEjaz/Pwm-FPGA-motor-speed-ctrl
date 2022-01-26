@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pwm_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pwm_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1465964709300fs"></ZoomStartTime>
+      <ZoomEndTime time="1559964709301fs"></ZoomEndTime>
+      <Cursor1Time time="889000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="310"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="54" />
+   <wvobject type="logic" fp_name="/pwm_tb/UpInput">
+      <obj_property name="ElementShortName">UpInput</obj_property>
+      <obj_property name="ObjectShortName">UpInput</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/reset_l">
+      <obj_property name="ElementShortName">reset_l</obj_property>
+      <obj_property name="ObjectShortName">reset_l</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/DownInput">
+      <obj_property name="ElementShortName">DownInput</obj_property>
+      <obj_property name="ObjectShortName">DownInput</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/EnableInput">
+      <obj_property name="ElementShortName">EnableInput</obj_property>
+      <obj_property name="ObjectShortName">EnableInput</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/PWM_O">
+      <obj_property name="ElementShortName">PWM_O</obj_property>
+      <obj_property name="ObjectShortName">PWM_O</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/clk_in1">
+      <obj_property name="ElementShortName">clk_in1</obj_property>
+      <obj_property name="ObjectShortName">clk_in1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/rst_ni">
+      <obj_property name="ElementShortName">rst_ni</obj_property>
+      <obj_property name="ObjectShortName">rst_ni</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/write">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/addr_i">
+      <obj_property name="ElementShortName">addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/wdata_i">
+      <obj_property name="ElementShortName">wdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/psel">
+      <obj_property name="ElementShortName">psel</obj_property>
+      <obj_property name="ObjectShortName">psel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/penable">
+      <obj_property name="ElementShortName">penable</obj_property>
+      <obj_property name="ObjectShortName">penable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/rdata_o">
+      <obj_property name="ElementShortName">rdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/o_pwm_1">
+      <obj_property name="ElementShortName">o_pwm_1</obj_property>
+      <obj_property name="ObjectShortName">o_pwm_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/oe_pwm1">
+      <obj_property name="ElementShortName">oe_pwm1</obj_property>
+      <obj_property name="ObjectShortName">oe_pwm1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/pslverr">
+      <obj_property name="ElementShortName">pslverr</obj_property>
+      <obj_property name="ObjectShortName">pslverr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/pready">
+      <obj_property name="ElementShortName">pready</obj_property>
+      <obj_property name="ObjectShortName">pready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/ctrl_1">
+      <obj_property name="ElementShortName">ctrl_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/period_1">
+      <obj_property name="ElementShortName">period_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">period_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/DC_1">
+      <obj_property name="ElementShortName">DC_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DC_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/divisor_1">
+      <obj_property name="ElementShortName">divisor_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/pwm_1">
+      <obj_property name="ElementShortName">pwm_1</obj_property>
+      <obj_property name="ObjectShortName">pwm_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/clock_p1">
+      <obj_property name="ElementShortName">clock_p1</obj_property>
+      <obj_property name="ObjectShortName">clock_p1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/counter_p1">
+      <obj_property name="ElementShortName">counter_p1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_p1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/period_counter1">
+      <obj_property name="ElementShortName">period_counter1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">period_counter1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pwm_peripheral/pts_1">
+      <obj_property name="ElementShortName">pts_1</obj_property>
+      <obj_property name="ObjectShortName">pts_1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/adr_ctrl_1">
+      <obj_property name="ElementShortName">adr_ctrl_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_ctrl_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/adr_divisor_1">
+      <obj_property name="ElementShortName">adr_divisor_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_divisor_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/adr_period_1">
+      <obj_property name="ElementShortName">adr_period_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_period_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/pwm_peripheral/adr_DC_1">
+      <obj_property name="ElementShortName">adr_DC_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_DC_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/UpInput">
+      <obj_property name="ElementShortName">UpInput</obj_property>
+      <obj_property name="ObjectShortName">UpInput</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/clk_in1">
+      <obj_property name="ElementShortName">clk_in1</obj_property>
+      <obj_property name="ObjectShortName">clk_in1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/reset_l">
+      <obj_property name="ElementShortName">reset_l</obj_property>
+      <obj_property name="ObjectShortName">reset_l</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/DownInput">
+      <obj_property name="ElementShortName">DownInput</obj_property>
+      <obj_property name="ObjectShortName">DownInput</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/EnableInput">
+      <obj_property name="ElementShortName">EnableInput</obj_property>
+      <obj_property name="ObjectShortName">EnableInput</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/PWM_O">
+      <obj_property name="ElementShortName">PWM_O</obj_property>
+      <obj_property name="ObjectShortName">PWM_O</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/rst_ni">
+      <obj_property name="ElementShortName">rst_ni</obj_property>
+      <obj_property name="ObjectShortName">rst_ni</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/write">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/addr_i">
+      <obj_property name="ElementShortName">addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/wdata_i">
+      <obj_property name="ElementShortName">wdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/rdata_o">
+      <obj_property name="ElementShortName">rdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/o_pwm_1">
+      <obj_property name="ElementShortName">o_pwm_1</obj_property>
+      <obj_property name="ObjectShortName">o_pwm_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/oe_pwm1">
+      <obj_property name="ElementShortName">oe_pwm1</obj_property>
+      <obj_property name="ObjectShortName">oe_pwm1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/psel">
+      <obj_property name="ElementShortName">psel</obj_property>
+      <obj_property name="ObjectShortName">psel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/penable">
+      <obj_property name="ElementShortName">penable</obj_property>
+      <obj_property name="ObjectShortName">penable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pslverr">
+      <obj_property name="ElementShortName">pslverr</obj_property>
+      <obj_property name="ObjectShortName">pslverr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/pready">
+      <obj_property name="ElementShortName">pready</obj_property>
+      <obj_property name="ObjectShortName">pready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/duty_cycle">
+      <obj_property name="ElementShortName">duty_cycle[7:0]</obj_property>
+      <obj_property name="ObjectShortName">duty_cycle[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pwm_tb/dut/ctrl_state">
+      <obj_property name="ElementShortName">ctrl_state</obj_property>
+      <obj_property name="ObjectShortName">ctrl_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/clk_cnt">
+      <obj_property name="ElementShortName">clk_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/currState">
+      <obj_property name="ElementShortName">currState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">currState[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pwm_tb/dut/nextState">
+      <obj_property name="ElementShortName">nextState[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextState[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,72 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Jan 26 15:11:50 2022
+| Host         : kali running 64-bit Kali GNU/Linux Rolling
+| Command      : report_control_sets -verbose -file PWM_controller_control_sets_placed.rpt
+| Design       : PWM_controller
+| Device       : xc7a35ti
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     7 |
+| Unused register locations in slices containing registers |    12 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      6 |            1 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               6 |            1 |
+| No           | No                    | Yes                    |              44 |            5 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             114 |           16 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+--------------------------------+------------------+------------------+----------------+
+|        Clock Signal       |          Enable Signal         | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------+--------------------------------+------------------+------------------+----------------+
+|  nextState_reg[2]_i_2_n_0 |                                |                  |                1 |              6 |
+|  clk_gen/inst/clk_out1    | pwm_peripheral/period_1_1      | reset_IBUF       |                1 |             16 |
+|  clk_gen/inst/clk_out1    | pwm_peripheral/divisor_1_0     | reset_IBUF       |                3 |             16 |
+|  clk_gen/inst/clk_out1    | pwm_peripheral/DC_1[7]_i_1_n_0 | reset_IBUF       |                3 |             16 |
+|  clk_gen/inst/clk_out1    | pwm_peripheral/pwm_1           | reset_IBUF       |                4 |             32 |
+|  pwm_peripheral/clock_p1  | pwm_peripheral/pts_10_out      | reset_IBUF       |                5 |             34 |
+|  clk_gen/inst/clk_out1    |                                | reset_IBUF       |                5 |             44 |
++---------------------------+--------------------------------+------------------+------------------+----------------+
+
+

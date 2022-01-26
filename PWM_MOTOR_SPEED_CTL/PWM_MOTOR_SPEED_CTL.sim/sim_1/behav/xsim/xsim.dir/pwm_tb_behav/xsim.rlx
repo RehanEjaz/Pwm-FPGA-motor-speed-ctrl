@@ -1,8 +1,8 @@
 
 { 
-    crc :  3151434980165141277  , 
+    crc :  5551721086234104077  , 
     ccp_crc :  0  , 
-    cmdline : " -wto d87369129044489faf4ef134790e3d7f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pwm_tb_behav xil_defaultlib.pwm_tb xil_defaultlib.glbl" , 
+    cmdline : " -wto d87369129044489faf4ef134790e3d7f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pwm_tb_behav xil_defaultlib.pwm_tb xil_defaultlib.glbl" , 
     buildDate : "Jun 14 2018" , 
     buildTime : "20:07:38" , 
     linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/pwm_tb_behav/xsimk\"   \"xsim.dir/pwm_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/pwm_tb_behav/obj/xsim_1.lnx64.o\" \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 

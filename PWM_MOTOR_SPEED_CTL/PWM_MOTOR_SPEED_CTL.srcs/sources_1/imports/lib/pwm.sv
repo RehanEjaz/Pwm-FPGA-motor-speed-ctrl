@@ -9,7 +9,7 @@ module	pwm(
 	output  logic [31:0] rdata_o, // read channel 																								
   	output  logic        o_pwm_1, // PWM output of 1st channel 
  	// output  logic        o_pwm_2, // PWM output of 2nd channel 
-	output  logic     	 oe_pwm1, // PWM valid indication 
+	//output  logic     	 oe_pwm1, // PWM valid indication 
 	// output  logic     	 oe_pwm2, // PWM valid indication
 	output  logic        pslverr,pready 
 
@@ -103,12 +103,12 @@ parameter  adr_ctrl_1	=	0,  /// Parameters Defined
 	always @(posedge clock_p1 or negedge rst_ni) begin
 			if (!rst_ni) begin
 				pts_1 <= 1'b0;
-				oe_pwm1 <= 1'b0;
+			//	oe_pwm1 <= 1'b0;
 				period_counter1 <= 16'd0;
 			end
 			else if (ctrl_1[0]) begin
 					if (pwm_1) begin
-						oe_pwm1 <= 1'b1;
+//						oe_pwm1 <= 1'b1;
 						if (period_counter1 >= period_1)
 							period_counter1 <= 16'd0;
 						else
